@@ -20,8 +20,6 @@ public class FormController {
 	@PostMapping("/details")
 	public String resultController(@ModelAttribute("empl")Employee emp) {
 
-		return "result";
-		
-		
+		return "result";	
 	}
 }
